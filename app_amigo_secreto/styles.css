@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7eaea;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    color: #d63384;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Campo de entrada y botón */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #d63384;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #d63384;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bf2c74;
+}
+
+/* Lista de nombres */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffe6f2;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Botón de sorteo */
+.sortear-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+.sortear-btn:hover {
+    background-color: #218838;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #d63384;
+    font-weight: bold;
+}
